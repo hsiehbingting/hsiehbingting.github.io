@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href = "./bootstrap.min.css" rel="stylesheet" >
+        <link href = "./style.css" rel="stylesheet" >
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="jquery-3.6.0.min.js"></script>  
+        <script type="text/javascript">
+          $(function() {
+              $('#gotop').click(function(){
+                  $('html,body').animate({ scrollTop: 0 }, 'slow');
+                  return false;
+              });
+              
+              $(window).scroll(function() {
+                  if ( $(this).scrollTop() > 400){
+                      $('#gotop').fadeIn();
+                  } else {
+                      $('#gotop').fadeOut();
+                  }
+              });
+          });
+          </script> 
+        <title>MENU | 快樂茶飲</title>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><h1>快樂茶飲</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html">首頁</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./menu.html">MENU</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./茶飲介紹.html">茶飲介紹</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./關於我們.html">關於我們</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <br><br><br>
+
+        <div class="container" style="min-width: 800px;max-width: 1000px;">
+            <div class="row">
+                <div class="col-12">
+                    <h3><b>MENU</b></h3>
+                </div>  
+            </div>      
+        </div>
+        <br>
+
+        <nav>
+            <table width="100%" style="min-width: 800px;max-width: 1000px;" border="0" align="center">
+                <tr>
+                    <th><a href="#鮮泡茶區" class="hf">鮮泡茶區</a></th>
+                
+                    <th><a href="#特調茶區" class="hf">特調茶區</a></th>
+                
+                    <th><a href="#現榨檸檬" class="hf">現榨檸檬</a></th>
+                
+                    <th><a href="#石蓮花多酚" class="hf">石蓮花多酚</a></th>
+                
+                    <th><a href="#健康好醋" class="hf">健康好醋</a></th>
+                
+                    <th><a href="#冬瓜系列" class="hf">冬瓜系列</a></th>
+                
+                    <th><a href="#研磨咖啡" class="hf">研磨咖啡</a></th>
+                </tr>
+            </table>
+        </nav>
+        <hr><br>
+
+        <a name="鮮泡茶區"></a>
+        <table width="90%" style="min-width:800px; max-width:1000px;" border="1"  class="table table-hover" align="center">
+        <thead>  
+            <tr>
+                <th colspan="2" width="25%"><span class="type">鮮泡茶    L </span></th>
+                <th colspan="2" width="25%"><span class="type">奶茶      L </span></th>
+                <th colspan="2" width="25%"><span class="type">鮮奶茶    L </span></th>
+                <th colspan="2" width="25%"><span class="type">茶拿鐵    M </span></th>
+            </tr>
+        </thead>
+            <tr>
+                <td width="17%">&nbsp;&nbsp;伯爵紅茶</td>
+                <td width="8%"><span class="price">30&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;伯爵奶茶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;伯爵牛奶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;伯爵拿鐵</td>
+                <td width="8%"><span class="price">45&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="17%">&nbsp;&nbsp;錫蘭紅茶</td>
+                <td width="8%"><span class="price">30&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;錫蘭奶茶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;錫蘭牛奶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;錫蘭拿鐵</td>
+                <td width="8%"><span class="price">45&nbsp;&nbsp;</span></td>
+            </tr>
+            
+            <tr>
+                <td width="17%">&nbsp;&nbsp;四季綠茶</td>
+                <td width="8%"><span class="price">30&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;四季綠奶茶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;四季綠牛奶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;四季綠拿鐵</td>
+                <td width="8%"><span class="price">45&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="17%">&nbsp;&nbsp;翠玉青茶</td>
+                <td width="8%"><span class="price">30&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;翠玉青奶茶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;翠玉青牛奶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;翠玉青拿鐵</td>
+                <td width="8%"><span class="price">45&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="17%">&nbsp;&nbsp;烏龍綠茶</td>
+                <td width="8%"><span class="price">30&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;烏龍綠奶茶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;烏龍綠牛奶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;烏龍綠拿鐵</td>
+                <td width="8%"><span class="price">45&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="17%">&nbsp;&nbsp;金萱茶</td>
+                <td width="8%"><span class="price">30&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;金萱奶茶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;金萱牛奶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;金萱拿鐵</td>
+                <td width="8%"><span class="price">45&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="17%">&nbsp;&nbsp;玄米玉露</td>
+                <td width="8%"><span class="price">30&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;玄米奶茶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;玄米牛奶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;玄米拿鐵</td>
+                <td width="8%"><span class="price">45&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="17%">&nbsp;&nbsp;阿里山烏龍茶</td>
+                <td width="8%"><span class="price">30&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;阿里山烏龍奶茶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;阿里山烏龍牛奶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;阿里山烏龍拿鐵</td>
+                <td width="8%"><span class="price">45&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="17%">&nbsp;&nbsp;東方美人茶</td>
+                <td width="8%"><span class="price">30&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;東方美人奶茶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;東方美人牛奶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;東方美人拿鐵</td>
+                <td width="8%"><span class="price">45&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="17%">&nbsp;&nbsp;炭焙烏龍茶</td>
+                <td width="8%"><span class="price">30&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;炭焙烏龍奶茶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;炭焙烏龍牛奶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;炭焙烏龍拿鐵</td>
+                <td width="8%"><span class="price">45&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="17%">&nbsp;&nbsp;鐵觀音</td>
+                <td width="8%"><span class="price">30&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;觀音奶茶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;觀音牛奶</td>
+                <td width="8%"><span class="price">40&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;觀音拿鐵</td>
+                <td width="8%"><span class="price">45&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="17%">&nbsp;&nbsp;菊花普洱</td>
+                <td width="8%"><span class="price">35&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;菊花普洱奶茶</td>
+                <td width="8%"><span class="price">45&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;菊花普洱牛奶</td>
+                <td width="8%"><span class="price">45&nbsp;&nbsp;</span></td>
+                <td width="17%">&nbsp;&nbsp;菊花普洱拿鐵</td>
+                <td width="8%"><span class="price">50&nbsp;&nbsp;</span></td>
+            </tr>
+            <tr>
+                    <td colspan="8" align="right"><font size="2">此區為現點現沖泡</font></td>
+            </tr>
+        </table>
+        <hr>
+
+        <a name="特調茶區"></a>
+        <table width="23%" style="min-width:200px; max-width:250px;" border="1" class="table table-hover" align="center">
+        <thead>
+            <tr>
+                <th colspan="2" width="100%"><span class="type">特調茶      L</span></th>
+            </tr>
+        </thead>
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;紅茶</td>
+                <td width="32%"><span class="price">20&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;綠茶</td>
+                <td width="32%"><span class="price">20&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;奶茶</td>
+                <td width="32%"><span class="price">30&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;話梅紅茶</td>
+                <td width="32%"><span class="price">25&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;話梅綠茶</td>
+                <td width="32%"><span class="price">25&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;百香紅茶</td>
+                <td width="32%"><span class="price">30&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;百香綠茶</td>
+                <td width="32%"><span class="price">30&nbsp;&nbsp;</span></td>
+            </tr>
+            
+            <tr>
+                <td width="68%">&nbsp;&nbsp;梅露綠茶</td>
+                <td width="32%"><span class="price">30&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;鮮梅汁</td>
+                <td width="32%"><span class="price">20&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;洛神花茶</td>
+                <td width="32%"><span class="price">25&nbsp;&nbsp;</span></td>
+            </tr>
+            
+            <tr>
+                <td width="68%">&nbsp;&nbsp;仙草干茶</td>
+                <td width="32%"><span class="price">25&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;養樂多綠茶</td>
+                <td width="32%"><span class="price">35&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;阿華田</td>
+                <td width="32%"><span class="price">35&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;蜂蜜冰茶</td>
+                <td width="32%"><span class="price">25&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;蜂蜜綠茶</td>
+                <td width="32%"><span class="price">30&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;蜂蜜紅茶</td>
+                <td width="32%"><span class="price">30&nbsp;&nbsp;</span></td>
+            </tr>
+        </table>
+        <hr> 
+
+        <a name="現榨檸檬"></a>
+        <table width="23%" style="min-width:200px; max-width:250px;" border="1" class="table table-hover" align="center">
+        <thead>
+            <tr>
+                <th colspan="2" width="100%"><span class="type">現榨檸檬      L</span></th>
+            </tr>
+        </thead>
+            <tr>
+                <td width="68%">&nbsp;&nbsp;檸檬原汁</td>
+                <td width="32%"><span class="price">45&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;話梅檸檬</td>
+                <td width="32%"><span class="price">45&nbsp;&nbsp;</span></td>
+            </tr>
+            
+            <tr>
+                <td width="68%">&nbsp;&nbsp;金桔檸檬</td>
+                <td width="32%"><span class="price">45&nbsp;&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;蜂蜜檸檬</td>
+                <td width="32%"><span class="price">50&nbsp;&nbsp;</span></td>
+            </tr>
+                
+            <tr>
+                <td width="68%">&nbsp;&nbsp;養樂多檸檬</td>
+                <td width="32%"><span class="price">55&nbsp;&nbsp;</span></td>
+            </tr>
+                
+            <tr>
+                <td width="68%">&nbsp;&nbsp;桔茶</td>
+                <td width="32%"><span class="price">45&nbsp;&nbsp;</span></td>
+            </tr>
+                
+            <tr>
+                <td width="68%">&nbsp;&nbsp;冬瓜檸檬</td>
+                <td width="32%"><span class="price">50&nbsp;&nbsp;</span></td>
+            </tr>
+        </table>
+        <hr>
+
+        <a name="石蓮花多酚"></a>
+        <table width="23%" style="min-width:200px; max-width:250px;" border="1" class="table table-hover" align="center">
+        <thead>
+            <tr>
+                <th colspan="2" width="100%"><span class="type">石蓮花多酚      L</span></th>
+            </tr>
+        </thead>
+            <tr>
+                <td width="68%">&nbsp;&nbsp;綠茶多酚</td>
+                <td width="32%"><span class="price">35&nbsp;&nbsp;</span></td>
+            </tr>
+
+            
+            <tr>
+                <td width="68%">&nbsp;&nbsp;多多多酚</td>
+                <td width="32%"><span class="price">35&nbsp;&nbsp;</span></td>
+            </tr>
+
+            
+            <tr>
+                <td width="68%">&nbsp;&nbsp;鮮奶多酚</td>
+                <td width="32%"><span class="price">45&nbsp;&nbsp;</span></td>
+            </tr>
+
+            
+            <tr>
+                <td width="68%">&nbsp;&nbsp;檸檬多酚</td>
+                <td width="32%"><span class="price">50&nbsp;&nbsp;</span></td>
+            </tr>
+        </table>
+        <hr>
+
+        <a name="健康好醋"></a>
+        <table width="23%" style="min-width:200px; max-width:250px;" border="1" class="table table-hover" align="center">
+        <thead> 
+            <tr>
+                <th colspan="2" width="100%"><span class="type">健康好醋      L</span></th>
+            </tr>
+        </thead>
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;蘋果醋</td>
+                <td width="32%"><span class="price">30&nbsp;&nbsp;</span></td>
+            </tr>
+
+            
+            <tr>
+                <td width="68%">&nbsp;&nbsp;蔓越莓醋</td>
+                <td width="32%"><span class="price">30&nbsp;&nbsp;</span></td>
+            </tr>
+        </table>
+        <hr>
+
+        <a name="冬瓜系列"></a>
+        <table width="23%" style="min-width:200px; max-width:250px;" border="1" class="table table-hover" align="center">
+        <thead>
+            <tr>
+                <th colspan="2" width="100%"><span class="type">冬瓜系列      L</span></th>
+            </tr>
+        </thead>
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;冬瓜茶</td>
+                <td width="32%"><span class="price">20&nbsp;&nbsp;</span></td>
+            </tr>
+
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;冬瓜仙干</td>
+                <td width="32%"><span class="price">30&nbsp;&nbsp;</span></td>
+            </tr>
+
+            
+            <tr>
+                <td width="68%">&nbsp;&nbsp;冬瓜綠茶</td>
+                <td width="32%"><span class="price">30&nbsp;&nbsp;</span></td>
+            </tr>
+
+            
+            <tr>
+                <td width="68%">&nbsp;&nbsp;冬瓜檸檬</td>
+                <td width="32%"><span class="price">50&nbsp;&nbsp;</span></td>
+            </tr>
+
+        </table>
+        <hr>
+
+        <a name="研磨咖啡"></a>
+        <table width="23%" style="min-width:200px; max-width:250px;" border="1" class="table table-hover" align="center">
+        <thead>
+            <tr>
+                <th colspan="2" width="100%"><span class="type">研磨咖啡</span></th>
+            </tr>
+        </thead>
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;黑咖啡&nbsp;S</td>
+                <td width="32%"><span class="price">35&nbsp;&nbsp;</span></td>
+            </tr>
+            
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;特調咖啡&nbsp;M</td>
+                <td width="32%"><span class="price">35&nbsp;&nbsp;</span></td>
+            </tr>
+
+
+            <tr>
+                <td width="68%">&nbsp;&nbsp;拿鐵咖啡&nbsp;S</td>
+                <td width="32%"><span class="price">50&nbsp;&nbsp;</span></td>
+            </tr>
+
+        </table>
+        <br>
+
+        <footer>
+            <p class="copyright"></p>
+            <p style="text-align: center;">
+                <span class="material-icons">call</span>05-2720411&nbsp;
+                <span class="material-icons">map</span>嘉義縣民雄鄉大學路一段168號
+            </p>
+        </footer>
+
+        <a href="#top" id="gotop">
+            <i class="fa fa-angle-up">
+              <img src="./picture/expand_less_black_24dp.svg">
+            </i>
+         </a>
+    
+
+        <script src="./bootstrap.bundle.min.js"></script>
+    </body>
+</html>
