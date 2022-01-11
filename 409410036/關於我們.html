@@ -1,0 +1,107 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href = "./bootstrap.min.css" rel="stylesheet" >
+        <link href = "./style.css" rel="stylesheet" >
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="jquery-3.6.0.min.js"></script>  
+        <script type="text/javascript">
+          $(function() {
+              $('#gotop').click(function(){
+                  $('html,body').animate({ scrollTop: 0 }, 'slow');
+                  return false;
+              });
+              
+              $(window).scroll(function() {
+                  if ( $(this).scrollTop() > 400){
+                      $('#gotop').fadeIn();
+                  } else {
+                      $('#gotop').fadeOut();
+                  }
+              });
+          });
+          </script> 
+        <title>關於我們 | 快樂茶飲</title>
+        <style>
+            h2 {text-align: left;}
+        </style>
+    </head>
+    <body>
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./picture/123.jpg" class="d-block w-100">
+              </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"><h1>快樂茶飲</h1></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">首頁</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./menu.html">MENU</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./茶飲介紹.html">茶飲介紹</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./關於我們.html">關於我們</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <br><br> 
+
+        <div class="container" style="min-width: 900px;">
+            <div class="row">
+              <div class="col-6">
+                <img src="./picture/c37d97e0-0b4d-43d1-bbd6-668697b63c68.jpg" width="100%" style="min-height: 50%;">
+              </div>
+              <div class="col-1"></div>
+              <div class="col-4" style="vertical-align: middle;">
+                <br><br><br>
+                <h2>使用SGS合格茶業</h2>
+                <br>
+                <h2>使用台糖蔗糖</h2>
+                <br>
+                <h2>新鮮熬煮珍珠</h2>
+                <br>
+                <h2>鮮泡茶現點現沖</h2>
+                <br>
+                <h2>茶葉現泡&nbsp;自然回甘</h2>
+                <h2></h2>
+              </div>
+            </div>
+        </div>
+
+        <br>
+        <footer>
+            <p class="pagetop "><a href="#top">▲TOP</a></p>
+            <p class="copyright"></p>
+            <p style="text-align: center;">
+              <span class="material-icons">call</span>05-2720411&nbsp;
+              <span class="material-icons">map</span>嘉義縣民雄鄉大學路一段168號
+            </p>
+          </footer>
+
+          <a href="#top" id="gotop">
+            <i class="fa fa-angle-up">
+              <img src="./picture/expand_less_black_24dp.svg">
+            </i>
+         </a>
+    
+
+        <script src="./bootstrap.bundle.min.js"></script>
+    </body>
+</html>
